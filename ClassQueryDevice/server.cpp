@@ -1,3 +1,15 @@
+/*=========================================================================
+Program: Server Full Duplex and creation of a phantom Omni instance
+
+
+Copyright (c) Emmanuel Neiza, Esteban Hernandez
+All rights reserved.
+
+
+This software is distributed WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE.
+===========================================================================*/
 #include<stdio.h>
 #include <stdlib.h>
 #include <iostream>

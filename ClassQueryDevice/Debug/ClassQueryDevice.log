@@ -1,12 +1,19 @@
-﻿Build started 15/11/2016 14:40:22.
+﻿Build started 15/11/2016 15:43:09.
      1>Project "C:\Users\takina\Documents\Visual Studio 2013\Projects\ClassQueryDevice\ClassQueryDevice\ClassQueryDevice.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OpenHaptics\Academic\3.2\include /IC:\OpenHaptics\Academic\3.2\utilities\include /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OpenHaptics\Academic\3.2\include /IC:\OpenHaptics\Academic\3.2\utilities\include /I.\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt query.cpp server.cpp
          server.cpp
-     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(79): warning C4190: 'mainLoop' has C-linkage specified, but returns UDT 'DeviceState' which is incompatible with C
-                 c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(30) : see declaration of 'DeviceState'
-     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\server.cpp(91): warning C4800: 'HDboolean' : forcing value to bool 'true' or 'false' (performance warning)
-     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\server.cpp(92): warning C4800: 'HDboolean' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(91): warning C4190: 'mainLoop' has C-linkage specified, but returns UDT 'DeviceState' which is incompatible with C
+                 c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(42) : see declaration of 'DeviceState'
+     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\server.cpp(103): warning C4800: 'HDboolean' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\server.cpp(104): warning C4800: 'HDboolean' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+         Compiling...
+         query.cpp
+     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(91): warning C4190: 'mainLoop' has C-linkage specified, but returns UDT 'DeviceState' which is incompatible with C
+                 c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.h(42) : see declaration of 'DeviceState'
+     1>c:\users\takina\documents\visual studio 2013\projects\classquerydevice\classquerydevice\query.cpp(136): warning C4101: 'i' : unreferenced local variable
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\takina\Documents\Visual Studio 2013\Projects\ClassQueryDevice\Debug\ClassQueryDevice.exe" /INCREMENTAL /NOLOGO C:\OpenHaptics\Academic\3.2\lib\Win32\DebugAcademicEdition\hd.lib C:\OpenHaptics\Academic\3.2\utilities\lib\Win32\Debug\hdu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\takina\Documents\Visual Studio 2013\Projects\ClassQueryDevice\Debug\ClassQueryDevice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\takina\Documents\Visual Studio 2013\Projects\ClassQueryDevice\Debug\ClassQueryDevice.lib" /MACHINE:X86 Debug\query.obj
          Debug\server.obj
@@ -15,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:17.44
+Time Elapsed 00:00:08.03
